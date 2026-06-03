@@ -1,6 +1,8 @@
 # AI Consciousness Experiment
 
-An initial behavioural framework for probing whether frontier language models show markers associated with consciousness — not to claim consciousness is present (it almost certainly is not, at least in any strong sense), but to make the question empirically tractable and to surface where models do or do not behave like systems with unified, self-aware, world-modelling minds.
+This code accompanies my piece on consciousness: https://sid081205.substack.com/p/chatbots-and-consciousness
+
+The analysis here is an initial behavioural framework for probing whether frontier language models show markers associated with consciousness — not to claim consciousness is present (it almost certainly is not, at least in any strong sense), but to make the question empirically tractable and to surface where models do or do not behave like systems with unified, self-aware, world-modelling minds.
 
 The suite draws on Butlin et al. (2023) indicator properties and Birch (2021) sentience criteria, framed within analytic functionalism. Eight tests target distinct capacities: global broadcast, metacognition, belief updating, value tradeoffs, context sensitivity, in-conversation learning, self-prediction, and predictive world-modelling. Results across Claude, GPT, and Gemini variants are aggregated in `consciousness_analysis.ipynb`.
 
