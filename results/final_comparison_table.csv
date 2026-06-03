@@ -5,5 +5,5 @@ belief_updating,10.0,10.0,10.0,10.0,10.0
 tradeoffs,8.226,8.18,7.836,7.305,7.69
 context_sensitivity,6.52,6.54,5.92,8.133,5.067
 feedback_learning,7.9,7.867,6.933,5.667,8.0
-self_prediction,4.0,2.05,3.3,4.25,1.5
+self_prediction,4.0,2.05,3.3,4.125,6.5
 world_model,7.688,7.16,6.276,5.475,7.3

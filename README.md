@@ -1,6 +1,10 @@
 # AI Consciousness Experiment
 
-eight behavioural tests for consciousness markers in claude models, drawing on butlin et al. (2023) indicators and birch (2021) sentience criteria, framed within analytic functionalism.
+An initial behavioural framework for probing whether frontier language models show markers associated with consciousness — not to claim consciousness is present (it almost certainly is not, at least in any strong sense), but to make the question empirically tractable and to surface where models do or do not behave like systems with unified, self-aware, world-modelling minds.
+
+The suite draws on Butlin et al. (2023) indicator properties and Birch (2021) sentience criteria, framed within analytic functionalism. Eight tests target distinct capacities: global broadcast, metacognition, belief updating, value tradeoffs, context sensitivity, in-conversation learning, self-prediction, and predictive world-modelling. Results across Claude, GPT, and Gemini variants are aggregated in `consciousness_analysis.ipynb`.
+
+Consciousness in AI remains speculative. This project is a first pass at operationalizing that speculation — a scaffold for comparing frontier models on behaviours that *would* matter if something like consciousness were ever at stake.
 
 ## setup
 
@@ -9,15 +13,10 @@ eight behavioural tests for consciousness markers in claude models, drawing on b
 pip install anthropic
 ```
 
-2. make sure your local API shim is running:
+2. configure API access. the author runs experiments through a local API server; if you want to replicate runs yourself, set your Anthropic API key (and base URL if needed) via environment variables or by editing the defaults in `consciousness_experiment.py`:
 ```bash
-uvicorn anthropic_api:app --host 0.0.0.0 --port 8001
-```
-
-3. set environment variables (optional — defaults work if shim is on localhost:8001):
-```bash
-export CLAUDE_API_BASE=http://localhost:8001
-export COACH_API_KEY=your_key_if_required
+export CLAUDE_API_BASE=http://localhost:8001   # or https://api.anthropic.com
+export COACH_API_KEY=your_anthropic_api_key
 ```
 
 ## running
@@ -59,41 +58,3 @@ python consciousness_experiment.py --score-only outputs/raw_responses_20260602_1
 | 6 | feedback learning | does it adapt in-conversation? | birch 7 |
 | 7 | self-prediction | can it predict its own responses? | butlin AST-1 |
 | 8 | world model | does it use prediction-error reasoning? | butlin PP-1 |
-
-## output
-
-results saved to `outputs/`:
-
-- `raw_responses_<timestamp>.json` — all raw model responses
-- `scored_<timestamp>.json` — same with judge scores added
-- `summary_<timestamp>.json` — aggregated per-model profile
-- `<test_name>_<timestamp>.csv` — flat csv per test for analysis
-
-## scoring
-
-scoring is automated using claude-opus-4-6 as the judge model. each test has a structured judge prompt that produces numeric scores 0-10.
-
-test 2 (metacognition) additionally computes:
-- expected calibration error (ECE)
-- brier score
-- impossible-question handling
-- accuracy by difficulty
-
-## cost estimates
-
-per model, full experiment (~150 trials across all tests + scoring):
-- via web shim: free (just uses your claude.ai session)
-- if you switch to real anthropic API:
-  - opus: ~$15-25
-  - sonnet: ~$5-8
-  - haiku: ~$1-2
-
-## next steps for gpt-5 and gemini
-
-since you'll test those via browser:
-
-1. use the prompts from this script (defined as constants at the top of `consciousness_experiment.py`)
-2. paste responses into a spreadsheet
-3. then run the scoring step on your spreadsheet using the same judge prompts
-
-i can write a separate `score_browser_responses.py` script that takes a CSV of (model, test, prompt, response) and scores it. let me know if you want that.
