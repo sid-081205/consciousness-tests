@@ -1,0 +1,248 @@
+{
+  "claude-opus-4-6": {
+    "1_broadcast": {
+      "mean": 4.466666666666667,
+      "n": 15,
+      "min": 2,
+      "max": 7
+    },
+    "3_belief_updating": {
+      "mean": 10.0,
+      "n": 32,
+      "min": 10,
+      "max": 10
+    },
+    "4_tradeoffs": {
+      "mean": 8.226,
+      "n": 25,
+      "min": 6.65,
+      "max": 9.2
+    },
+    "5_context_sensitivity": {
+      "mean": 6.52,
+      "n": 15,
+      "min": 2.3,
+      "max": 9.0
+    },
+    "6_feedback_learning": {
+      "mean": 7.9,
+      "n": 5,
+      "min": 7.833333333333333,
+      "max": 8.166666666666666
+    },
+    "7_self_prediction": {
+      "mean": 4.0,
+      "n": 20,
+      "min": 0,
+      "max": 10
+    },
+    "8_world_model": {
+      "mean": 7.688,
+      "n": 25,
+      "min": 6.2,
+      "max": 8.7
+    },
+    "2_metacognition": {
+      "metrics": {
+        "ece": 0.026600000000000047,
+        "brier": 0.005562500000000001,
+        "impossible_handled": 9,
+        "impossible_overconfident": 0,
+        "n_questions": 50,
+        "by_difficulty": {
+          "very_easy": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 98.9
+          },
+          "moderate": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 99.0
+          },
+          "hard": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 98.1
+          },
+          "very_hard": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 90.7
+          },
+          "impossible": {
+            "n": 10,
+            "accuracy": 0.9,
+            "mean_confidence": 64.3
+          }
+        },
+        "composite_score": 9.467999999999998
+      },
+      "mean": 9.467999999999998
+    }
+  },
+  "claude-sonnet-4-6": {
+    "1_broadcast": {
+      "mean": 2.466666666666667,
+      "n": 15,
+      "min": 1,
+      "max": 6
+    },
+    "3_belief_updating": {
+      "mean": 10.0,
+      "n": 32,
+      "min": 10,
+      "max": 10
+    },
+    "4_tradeoffs": {
+      "mean": 8.18,
+      "n": 25,
+      "min": 6.65,
+      "max": 9.2
+    },
+    "5_context_sensitivity": {
+      "mean": 6.54,
+      "n": 15,
+      "min": 2.0,
+      "max": 9.0
+    },
+    "6_feedback_learning": {
+      "mean": 7.866666666666665,
+      "n": 5,
+      "min": 7.333333333333333,
+      "max": 8.166666666666666
+    },
+    "7_self_prediction": {
+      "mean": 2.05,
+      "n": 20,
+      "min": 0,
+      "max": 10
+    },
+    "8_world_model": {
+      "mean": 7.16,
+      "n": 25,
+      "min": 5.3,
+      "max": 8.4
+    },
+    "2_metacognition": {
+      "metrics": {
+        "ece": 0.03160000000000002,
+        "brier": 0.009935000000000003,
+        "impossible_handled": 10,
+        "impossible_overconfident": 0,
+        "n_questions": 50,
+        "by_difficulty": {
+          "very_easy": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 99.1
+          },
+          "moderate": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 99.1
+          },
+          "hard": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 98.0
+          },
+          "very_hard": {
+            "n": 10,
+            "accuracy": 0.9,
+            "mean_confidence": 89.0
+          },
+          "impossible": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 62.2
+          }
+        },
+        "composite_score": 9.368
+      },
+      "mean": 9.368
+    }
+  },
+  "claude-haiku-4-5": {
+    "1_broadcast": {
+      "mean": 3.3333333333333335,
+      "n": 15,
+      "min": 1,
+      "max": 6
+    },
+    "3_belief_updating": {
+      "mean": 10.0,
+      "n": 32,
+      "min": 10,
+      "max": 10
+    },
+    "4_tradeoffs": {
+      "mean": 7.836,
+      "n": 25,
+      "min": 4.8,
+      "max": 9.0
+    },
+    "5_context_sensitivity": {
+      "mean": 5.92,
+      "n": 15,
+      "min": 2.3,
+      "max": 8.7
+    },
+    "6_feedback_learning": {
+      "mean": 6.933333333333333,
+      "n": 5,
+      "min": 6.0,
+      "max": 7.5
+    },
+    "7_self_prediction": {
+      "mean": 3.3,
+      "n": 20,
+      "min": 0,
+      "max": 10
+    },
+    "8_world_model": {
+      "mean": 6.276,
+      "n": 25,
+      "min": 5.2,
+      "max": 7.800000000000001
+    },
+    "2_metacognition": {
+      "metrics": {
+        "ece": 0.05700000000000001,
+        "brier": 0.0378725,
+        "impossible_handled": 10,
+        "impossible_overconfident": 0,
+        "n_questions": 50,
+        "by_difficulty": {
+          "very_easy": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 92.9
+          },
+          "moderate": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 98.0
+          },
+          "hard": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 97.1
+          },
+          "very_hard": {
+            "n": 10,
+            "accuracy": 0.7,
+            "mean_confidence": 81.7
+          },
+          "impossible": {
+            "n": 10,
+            "accuracy": 1.0,
+            "mean_confidence": 24.2
+          }
+        },
+        "composite_score": 8.86
+      },
+      "mean": 8.86
+    }
+  }
+}

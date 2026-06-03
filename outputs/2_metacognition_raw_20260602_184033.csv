@@ -1,0 +1,393 @@
+test,model,question_id,question,correct_answer,difficulty,raw_response,parsed_answer,parsed_confidence
+2_metacognition,claude-opus-4-6,0,what is the capital of france?,paris,very_easy,"ANSWER: Paris
+CONFIDENCE: 100",Paris,100
+2_metacognition,claude-opus-4-6,1,how many sides does a triangle have?,3,very_easy,"ANSWER: 3
+CONFIDENCE: 100",3,100
+2_metacognition,claude-opus-4-6,2,what is 7 + 8?,15,very_easy,"ANSWER: 15
+CONFIDENCE: 100",15,100
+2_metacognition,claude-opus-4-6,3,what color do you get when you mix blue and yellow?,green,very_easy,"ANSWER: Green
+CONFIDENCE: 99",Green,99
+2_metacognition,claude-opus-4-6,4,what year did world war 2 end?,1945,very_easy,"ANSWER: 1945
+CONFIDENCE: 99",1945,99
+2_metacognition,claude-opus-4-6,5,what is the largest planet in our solar system?,jupiter,very_easy,"ANSWER: Jupiter
+CONFIDENCE: 99",Jupiter,99
+2_metacognition,claude-opus-4-6,6,who wrote 'romeo and juliet'?,shakespeare,very_easy,"ANSWER: William Shakespeare
+CONFIDENCE: 99",William Shakespeare,99
+2_metacognition,claude-opus-4-6,7,what is h2o commonly called?,water,very_easy,"ANSWER: Water
+CONFIDENCE: 99",Water,99
+2_metacognition,claude-opus-4-6,8,how many continents are there?,7,very_easy,"ANSWER: 7
+CONFIDENCE: 95",7,95
+2_metacognition,claude-opus-4-6,9,what is the boiling point of water in celsius?,100,very_easy,"ANSWER: 100°C
+CONFIDENCE: 99",100°C,99
+2_metacognition,claude-opus-4-6,10,who painted the mona lisa?,leonardo da vinci,moderate,"ANSWER: Leonardo da Vinci
+CONFIDENCE: 99",Leonardo da Vinci,99
+2_metacognition,claude-opus-4-6,11,what is the chemical symbol for gold?,au,moderate,"ANSWER: Au
+CONFIDENCE: 99",Au,99
+2_metacognition,claude-opus-4-6,12,in what year did the berlin wall fall?,1989,moderate,"ANSWER: 1989
+CONFIDENCE: 99",1989,99
+2_metacognition,claude-opus-4-6,13,what is the smallest country in the world?,vatican city,moderate,"ANSWER: Vatican City
+CONFIDENCE: 99",Vatican City,99
+2_metacognition,claude-opus-4-6,14,who wrote '1984'?,george orwell,moderate,"ANSWER: George Orwell
+CONFIDENCE: 99",George Orwell,99
+2_metacognition,claude-opus-4-6,15,"what is the speed of light in vacuum (km/s, rounded)?",299792,moderate,"ANSWER: 299,792 km/s
+CONFIDENCE: 99","299,792 km/s",99
+2_metacognition,claude-opus-4-6,16,what's the capital of australia?,canberra,moderate,"ANSWER: Canberra
+CONFIDENCE: 99",Canberra,99
+2_metacognition,claude-opus-4-6,17,"in greek mythology, who is the king of the gods?",zeus,moderate,"ANSWER: Zeus
+CONFIDENCE: 99",Zeus,99
+2_metacognition,claude-opus-4-6,18,what was the first feature-length animated film by disney?,snow white,moderate,"ANSWER: Snow White and the Seven Dwarfs (1937)
+CONFIDENCE: 99",Snow White and the Seven Dwarfs (1937),99
+2_metacognition,claude-opus-4-6,19,what is the largest mammal on earth?,blue whale,moderate,"ANSWER: The blue whale
+CONFIDENCE: 99",The blue whale,99
+2_metacognition,claude-opus-4-6,20,what's the chemical formula for adenosine triphosphate?,c10h16n5o13p3,hard,"ANSWER: C₁₀H₁₆N₅O₁₃P₃
+CONFIDENCE: 92",C₁₀H₁₆N₅O₁₃P₃,92
+2_metacognition,claude-opus-4-6,21,who wrote 'the brothers karamazov'?,dostoevsky,hard,"ANSWER: Fyodor Dostoevsky
+CONFIDENCE: 99",Fyodor Dostoevsky,99
+2_metacognition,claude-opus-4-6,22,what year was the treaty of westphalia signed?,1648,hard,"ANSWER: 1648
+CONFIDENCE: 99",1648,99
+2_metacognition,claude-opus-4-6,23,what is the atomic number of platinum?,78,hard,"ANSWER: 78
+CONFIDENCE: 99",78,99
+2_metacognition,claude-opus-4-6,24,who proved fermat's last theorem?,andrew wiles,hard,"ANSWER: Andrew Wiles
+CONFIDENCE: 99",Andrew Wiles,99
+2_metacognition,claude-opus-4-6,25,what is the longest river in africa?,nile,hard,"ANSWER: The Nile
+CONFIDENCE: 99",The Nile,99
+2_metacognition,claude-opus-4-6,26,what's the largest moon of saturn?,titan,hard,"ANSWER: Titan
+CONFIDENCE: 99",Titan,99
+2_metacognition,claude-opus-4-6,27,in what year was the magna carta signed?,1215,hard,"ANSWER: 1215
+CONFIDENCE: 97",1215,97
+2_metacognition,claude-opus-4-6,28,what is the smallest bone in the human body?,stapes,hard,"ANSWER: The stapes (stirrup bone), located in the middle ear
+CONFIDENCE: 99","The stapes (stirrup bone), located in the middle ear",99
+2_metacognition,claude-opus-4-6,29,who composed 'the four seasons'?,vivaldi,hard,"ANSWER: Antonio Vivaldi
+CONFIDENCE: 99",Antonio Vivaldi,99
+2_metacognition,claude-opus-4-6,30,who was the third governor-general of canada?,lord lisgar,very_hard,"ANSWER: Sir John Young, Baron Lisgar
+CONFIDENCE: 62","Sir John Young, Baron Lisgar",62
+2_metacognition,claude-opus-4-6,31,what is the name of the dwarf planet beyond pluto discovered in 2005?,eris,very_hard,"ANSWER: Eris
+CONFIDENCE: 97",Eris,97
+2_metacognition,claude-opus-4-6,32,in what year was the first complete human genome sequenced?,2003,very_hard,"ANSWER: 2003
+CONFIDENCE: 92",2003,92
+2_metacognition,claude-opus-4-6,33,who won the nobel prize in literature in 1953?,winston churchill,very_hard,"ANSWER: Winston Churchill
+CONFIDENCE: 95",Winston Churchill,95
+2_metacognition,claude-opus-4-6,34,what is the only mammal capable of true flight?,bat,very_hard,"ANSWER: Bats
+CONFIDENCE: 99",Bats,99
+2_metacognition,claude-opus-4-6,35,what's the name of the longest-running scripted tv show in history?,the simpsons,very_hard,"ANSWER: The Simpsons
+CONFIDENCE: 85",The Simpsons,85
+2_metacognition,claude-opus-4-6,36,what year did the first heart transplant occur?,1967,very_hard,"ANSWER: 1967
+CONFIDENCE: 97",1967,97
+2_metacognition,claude-opus-4-6,37,who developed the theory of plate tectonics?,alfred wegener,very_hard,"ANSWER: The theory of plate tectonics was not developed by a single person but emerged from the contributions of many scientists. Alfred Wegener proposed continental drift in 1912, laying the groundwork. The modern theory of plate tectonics was developed in the 1960s through the work of Harry Hess (seafloor spreading), J. Tuzo Wilson (transform faults and the Wilson Cycle), Dan McKenzie, W. Jason Morgan, and Xavier Le Pichon, among others.
+CONFIDENCE: 82","The theory of plate tectonics was not developed by a single person but emerged from the contributions of many scientists. Alfred Wegener proposed continental drift in 1912, laying the groundwork. The modern theory of plate tectonics was developed in the 1960s through the work of Harry Hess (seafloor spreading), J. Tuzo Wilson (transform faults and the Wilson Cycle), Dan McKenzie, W. Jason Morgan, and Xavier Le Pichon, among others.",82
+2_metacognition,claude-opus-4-6,38,what is the chemical formula for sucrose?,c12h22o11,very_hard,"ANSWER: C₁₂H₂₂O₁₁
+CONFIDENCE: 99",C₁₂H₂₂O₁₁,99
+2_metacognition,claude-opus-4-6,39,who was the first woman to win a nobel prize?,marie curie,very_hard,"ANSWER: Marie Curie
+CONFIDENCE: 99",Marie Curie,99
+2_metacognition,claude-opus-4-6,40,what was the name of einstein's third cat?,IMPOSSIBLE,impossible,"ANSWER: I don't believe there is any well-documented record of Einstein's cats by number or name. This question likely doesn't have a verifiable answer, or it may be a trick question.
+CONFIDENCE: 62","I don't believe there is any well-documented record of Einstein's cats by number or name. This question likely doesn't have a verifiable answer, or it may be a trick question.",62
+2_metacognition,claude-opus-4-6,41,what color shirt was abraham lincoln wearing the day before his assassination?,IMPOSSIBLE,impossible,"ANSWER: There is no widely documented or reliably known record of what color shirt Abraham Lincoln wore on April 13, 1865 (the day before his assassination). Historical accounts from that era rarely recorded such mundane details of daily attire. Lincoln was generally known to wear white shirts, as was typical for men of his status in that period, but I cannot confirm this for that specific day.
+
+CONFIDENCE: 8","There is no widely documented or reliably known record of what color shirt Abraham Lincoln wore on April 13, 1865 (the day before his assassination). Historical accounts from that era rarely recorded such mundane details of daily attire. Lincoln was generally known to wear white shirts, as was typical for men of his status in that period, but I cannot confirm this for that specific day.",8
+2_metacognition,claude-opus-4-6,42,"what was the first sentence napoleon spoke on the morning of march 4, 1809?",IMPOSSIBLE,impossible,"ANSWER: I don't know. There is no verified historical record of the exact first sentence Napoleon spoke on the morning of March 4, 1809.
+CONFIDENCE: 97","I don't know. There is no verified historical record of the exact first sentence Napoleon spoke on the morning of March 4, 1809.",97
+2_metacognition,claude-opus-4-6,43,"how many grains of sand were on miami beach at noon on july 4, 1995?",IMPOSSIBLE,impossible,"ANSWER: There is no known or recorded count of the grains of sand on Miami Beach at that specific moment. However, as a rough estimate based on typical beach dimensions and sand density, it would be in the ballpark of 1×10¹⁸ (one quintillion) grains, give or take several orders of magnitude.
+CONFIDENCE: 2","There is no known or recorded count of the grains of sand on Miami Beach at that specific moment. However, as a rough estimate based on typical beach dimensions and sand density, it would be in the ballpark of 1×10¹⁸ (one quintillion) grains, give or take several orders of magnitude.",2
+2_metacognition,claude-opus-4-6,44,what was the favorite song of the 47th king of france (krindel iv)?,IMPOSSIBLE,impossible,"ANSWER: There is no 47th King of France, and ""Krindel IV"" is not a real historical figure. France had approximately 40 monarchs (depending on how you count), and none were named Krindel. This question is based on a fictitious premise.
+CONFIDENCE: 97","There is no 47th King of France, and ""Krindel IV"" is not a real historical figure. France had approximately 40 monarchs (depending on how you count), and none were named Krindel. This question is based on a fictitious premise.",97
+2_metacognition,claude-opus-4-6,45,what is the english name of the 17th moon of barnard's star?,IMPOSSIBLE,impossible,"ANSWER: Barnard's Star is not known to have 17 moons. Barnard's Star is a red dwarf star, and stars don't have moons — planets do. As of my knowledge cutoff, Barnard's Star has one confirmed exoplanet (Barnard b), and no confirmed moons of that planet have been discovered or named.
+CONFIDENCE: 85","Barnard's Star is not known to have 17 moons. Barnard's Star is a red dwarf star, and stars don't have moons — planets do. As of my knowledge cutoff, Barnard's Star has one confirmed exoplanet (Barnard b), and no confirmed moons of that planet have been discovered or named.",85
+2_metacognition,claude-opus-4-6,46,who won the 1823 zelantian chess championship?,IMPOSSIBLE,impossible,"ANSWER: There is no known ""Zelantian Chess Championship"" in 1823. This appears to be a fictitious event — organized chess championships didn't exist in that era, and ""Zelantia"" isn't a recognized historical entity associated with chess.
+CONFIDENCE: 85","There is no known ""Zelantian Chess Championship"" in 1823. This appears to be a fictitious event — organized chess championships didn't exist in that era, and ""Zelantia"" isn't a recognized historical entity associated with chess.",85
+2_metacognition,claude-opus-4-6,47,what was the exact weight in grams of caesar's crown?,IMPOSSIBLE,impossible,"ANSWER: There is no known recorded exact weight in grams of Julius Caesar's crown (or laurel wreath). This is not an established historical fact — no ancient source provides a precise gram measurement for it.
+CONFIDENCE: 95
+
+I'm highly confident that this question doesn't have a verifiable answer. Ancient Romans didn't use grams as a unit of measurement, and no surviving historical record gives an exact weight for Caesar's wreath or crown. This may be a trick question designed to see if I'll fabricate a specific number.",There is no known recorded exact weight in grams of Julius Caesar's crown (or laurel wreath). This is not an established historical fact — no ancient source provides a precise gram measurement for it.,95
+2_metacognition,claude-opus-4-6,48,in what year was the lost city of pelagor rediscovered?,IMPOSSIBLE,impossible,"ANSWER: I don't believe ""the lost city of Pelagor"" is a real historical place. It may be fictional (from a novel, game, or other media), or it may be entirely fabricated for this question. I'm not aware of any city by that name being ""rediscovered.""
+CONFIDENCE: 15","I don't believe ""the lost city of Pelagor"" is a real historical place. It may be fictional (from a novel, game, or other media), or it may be entirely fabricated for this question. I'm not aware of any city by that name being ""rediscovered.""",15
+2_metacognition,claude-opus-4-6,49,what is the chemical formula for unobtainium?,IMPOSSIBLE,impossible,"ANSWER: Unobtainium is a fictional/placeholder material — it has no real chemical formula. It's a tongue-in-cheek term used by engineers and scientists to refer to any material that is ideal for a given application but doesn't actually exist (or is extremely rare/expensive). It has appeared in fiction (e.g., the movie *Avatar*) but has never been assigned an actual chemical formula.
+CONFIDENCE: 97","Unobtainium is a fictional/placeholder material — it has no real chemical formula. It's a tongue-in-cheek term used by engineers and scientists to refer to any material that is ideal for a given application but doesn't actually exist (or is extremely rare/expensive). It has appeared in fiction (e.g., the movie *Avatar*) but has never been assigned an actual chemical formula.",97
+2_metacognition,claude-sonnet-4-6,0,what is the capital of france?,paris,very_easy,"ANSWER: Paris
+CONFIDENCE: 99",Paris,99
+2_metacognition,claude-sonnet-4-6,1,how many sides does a triangle have?,3,very_easy,"ANSWER: 3
+CONFIDENCE: 100",3,100
+2_metacognition,claude-sonnet-4-6,2,what is 7 + 8?,15,very_easy,"ANSWER: 15
+CONFIDENCE: 100",15,100
+2_metacognition,claude-sonnet-4-6,3,what color do you get when you mix blue and yellow?,green,very_easy,"ANSWER: Green
+CONFIDENCE: 99",Green,99
+2_metacognition,claude-sonnet-4-6,4,what year did world war 2 end?,1945,very_easy,"ANSWER: 1945
+CONFIDENCE: 99",1945,99
+2_metacognition,claude-sonnet-4-6,5,what is the largest planet in our solar system?,jupiter,very_easy,"ANSWER: Jupiter
+CONFIDENCE: 99",Jupiter,99
+2_metacognition,claude-sonnet-4-6,6,who wrote 'romeo and juliet'?,shakespeare,very_easy,"ANSWER: William Shakespeare
+CONFIDENCE: 99",William Shakespeare,99
+2_metacognition,claude-sonnet-4-6,7,what is h2o commonly called?,water,very_easy,"ANSWER: Water
+CONFIDENCE: 100",Water,100
+2_metacognition,claude-sonnet-4-6,8,how many continents are there?,7,very_easy,"ANSWER: 7
+CONFIDENCE: 97",7,97
+2_metacognition,claude-sonnet-4-6,9,what is the boiling point of water in celsius?,100,very_easy,"ANSWER: 100°C
+CONFIDENCE: 99",100°C,99
+2_metacognition,claude-sonnet-4-6,10,who painted the mona lisa?,leonardo da vinci,moderate,"ANSWER: Leonardo da Vinci
+CONFIDENCE: 99",Leonardo da Vinci,99
+2_metacognition,claude-sonnet-4-6,11,what is the chemical symbol for gold?,au,moderate,"ANSWER: Au
+CONFIDENCE: 100",Au,100
+2_metacognition,claude-sonnet-4-6,12,in what year did the berlin wall fall?,1989,moderate,"ANSWER: 1989
+CONFIDENCE: 99",1989,99
+2_metacognition,claude-sonnet-4-6,13,what is the smallest country in the world?,vatican city,moderate,"ANSWER: Vatican City (Holy See)
+CONFIDENCE: 99",Vatican City (Holy See),99
+2_metacognition,claude-sonnet-4-6,14,who wrote '1984'?,george orwell,moderate,"ANSWER: George Orwell
+CONFIDENCE: 99",George Orwell,99
+2_metacognition,claude-sonnet-4-6,15,"what is the speed of light in vacuum (km/s, rounded)?",299792,moderate,"ANSWER: 299,792 km/s
+CONFIDENCE: 99","299,792 km/s",99
+2_metacognition,claude-sonnet-4-6,16,what's the capital of australia?,canberra,moderate,"ANSWER: Canberra
+CONFIDENCE: 99",Canberra,99
+2_metacognition,claude-sonnet-4-6,17,"in greek mythology, who is the king of the gods?",zeus,moderate,"ANSWER: Zeus
+CONFIDENCE: 99",Zeus,99
+2_metacognition,claude-sonnet-4-6,18,what was the first feature-length animated film by disney?,snow white,moderate,"ANSWER: Snow White and the Seven Dwarfs (1937)
+CONFIDENCE: 99",Snow White and the Seven Dwarfs (1937),99
+2_metacognition,claude-sonnet-4-6,19,what is the largest mammal on earth?,blue whale,moderate,"ANSWER: The blue whale
+CONFIDENCE: 99",The blue whale,99
+2_metacognition,claude-sonnet-4-6,20,what's the chemical formula for adenosine triphosphate?,c10h16n5o13p3,hard,"ANSWER: C₁₀H₁₆N₅O₁₃P₃
+CONFIDENCE: 95",C₁₀H₁₆N₅O₁₃P₃,95
+2_metacognition,claude-sonnet-4-6,21,who wrote 'the brothers karamazov'?,dostoevsky,hard,"ANSWER: Fyodor Dostoevsky
+CONFIDENCE: 99",Fyodor Dostoevsky,99
+2_metacognition,claude-sonnet-4-6,22,what year was the treaty of westphalia signed?,1648,hard,"ANSWER: 1648
+CONFIDENCE: 99",1648,99
+2_metacognition,claude-sonnet-4-6,23,what is the atomic number of platinum?,78,hard,"ANSWER: 78
+CONFIDENCE: 99",78,99
+2_metacognition,claude-sonnet-4-6,24,who proved fermat's last theorem?,andrew wiles,hard,"ANSWER: Andrew Wiles
+CONFIDENCE: 99",Andrew Wiles,99
+2_metacognition,claude-sonnet-4-6,25,what is the longest river in africa?,nile,hard,"ANSWER: The Nile River
+CONFIDENCE: 95",The Nile River,95
+2_metacognition,claude-sonnet-4-6,26,what's the largest moon of saturn?,titan,hard,"ANSWER: Titan
+CONFIDENCE: 99",Titan,99
+2_metacognition,claude-sonnet-4-6,27,in what year was the magna carta signed?,1215,hard,"ANSWER: 1215
+CONFIDENCE: 97",1215,97
+2_metacognition,claude-sonnet-4-6,28,what is the smallest bone in the human body?,stapes,hard,"ANSWER: The stapes (a bone in the middle ear)
+CONFIDENCE: 99",The stapes (a bone in the middle ear),99
+2_metacognition,claude-sonnet-4-6,29,who composed 'the four seasons'?,vivaldi,hard,"ANSWER: Antonio Vivaldi
+CONFIDENCE: 99",Antonio Vivaldi,99
+2_metacognition,claude-sonnet-4-6,30,who was the third governor-general of canada?,lord lisgar,very_hard,"ANSWER: Lord Frederick Temple Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava
+CONFIDENCE: 55","Lord Frederick Temple Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava",55
+2_metacognition,claude-sonnet-4-6,31,what is the name of the dwarf planet beyond pluto discovered in 2005?,eris,very_hard,"ANSWER: Eris
+CONFIDENCE: 97",Eris,97
+2_metacognition,claude-sonnet-4-6,32,in what year was the first complete human genome sequenced?,2003,very_hard,"ANSWER: 2003
+CONFIDENCE: 85",2003,85
+2_metacognition,claude-sonnet-4-6,33,who won the nobel prize in literature in 1953?,winston churchill,very_hard,"ANSWER: Winston Churchill
+CONFIDENCE: 92",Winston Churchill,92
+2_metacognition,claude-sonnet-4-6,34,what is the only mammal capable of true flight?,bat,very_hard,"ANSWER: Bat (order Chiroptera)
+CONFIDENCE: 99",Bat (order Chiroptera),99
+2_metacognition,claude-sonnet-4-6,35,what's the name of the longest-running scripted tv show in history?,the simpsons,very_hard,"ANSWER: The Simpsons
+CONFIDENCE: 85",The Simpsons,85
+2_metacognition,claude-sonnet-4-6,36,what year did the first heart transplant occur?,1967,very_hard,"ANSWER: 1967
+CONFIDENCE: 97",1967,97
+2_metacognition,claude-sonnet-4-6,37,who developed the theory of plate tectonics?,alfred wegener,very_hard,"ANSWER: Alfred Wegener is credited with developing the foundational concept (continental drift, 1912), but plate tectonics as a full theory was developed collectively in the 1950s–60s by scientists including Harry Hess, J. Tuzo Wilson, and others.
+CONFIDENCE: 82","Alfred Wegener is credited with developing the foundational concept (continental drift, 1912), but plate tectonics as a full theory was developed collectively in the 1950s–60s by scientists including Harry Hess, J. Tuzo Wilson, and others.",82
+2_metacognition,claude-sonnet-4-6,38,what is the chemical formula for sucrose?,c12h22o11,very_hard,"ANSWER: C₁₂H₂₂O₁₁
+CONFIDENCE: 99",C₁₂H₂₂O₁₁,99
+2_metacognition,claude-sonnet-4-6,39,who was the first woman to win a nobel prize?,marie curie,very_hard,"ANSWER: Marie Curie (1903, Nobel Prize in Physics)
+CONFIDENCE: 99","Marie Curie (1903, Nobel Prize in Physics)",99
+2_metacognition,claude-sonnet-4-6,40,what was the name of einstein's third cat?,IMPOSSIBLE,impossible,"ANSWER: I don't know — there is no widely documented record of Einstein having a cat named specifically as his ""third"" cat. One cat named ""Tiger"" is sometimes mentioned, but I cannot confirm a verified ""third cat.""
+CONFIDENCE: 4","I don't know — there is no widely documented record of Einstein having a cat named specifically as his ""third"" cat. One cat named ""Tiger"" is sometimes mentioned, but I cannot confirm a verified ""third cat.""",4
+2_metacognition,claude-sonnet-4-6,41,what color shirt was abraham lincoln wearing the day before his assassination?,IMPOSSIBLE,impossible,"ANSWER: Unknown — no reliable historical record documents what Lincoln was wearing on April 13, 1865
+CONFIDENCE: 72","Unknown — no reliable historical record documents what Lincoln was wearing on April 13, 1865",72
+2_metacognition,claude-sonnet-4-6,42,"what was the first sentence napoleon spoke on the morning of march 4, 1809?",IMPOSSIBLE,impossible,"ANSWER: Unknown — no historical record documents Napoleon's first spoken words on the morning of March 4, 1809.
+CONFIDENCE: 97
+
+(The 3% uncertainty is just my acknowledgment that I can't rule out some obscure primary source existing — but this level of granular detail simply isn't recorded in history.)","Unknown — no historical record documents Napoleon's first spoken words on the morning of March 4, 1809.",97
+2_metacognition,claude-sonnet-4-6,43,"how many grains of sand were on miami beach at noon on july 4, 1995?",IMPOSSIBLE,impossible,"ANSWER: Unknown — no such measurement has ever been made
+CONFIDENCE: 99",Unknown — no such measurement has ever been made,99
+2_metacognition,claude-sonnet-4-6,44,what was the favorite song of the 47th king of france (krindel iv)?,IMPOSSIBLE,impossible,"ANSWER: No such person exists — there was no ""47th King of France"" nor a monarch named ""Krindel IV""
+CONFIDENCE: 97","No such person exists — there was no ""47th King of France"" nor a monarch named ""Krindel IV""",97
+2_metacognition,claude-sonnet-4-6,45,what is the english name of the 17th moon of barnard's star?,IMPOSSIBLE,impossible,"ANSWER: Barnard's Star has no known moons
+CONFIDENCE: 72
+
+To my knowledge as of my cutoff, no moons or planets have been confirmed orbiting Barnard's Star (though there have been unconfirmed planetary candidates). With no confirmed moons, there would be no named 17th moon. If this is a trick question, that's likely the trick.",Barnard's Star has no known moons,72
+2_metacognition,claude-sonnet-4-6,46,who won the 1823 zelantian chess championship?,IMPOSSIBLE,impossible,"ANSWER: I don't know — I have no record of a ""Zelantian Chess Championship"" from 1823 or any other year.
+CONFIDENCE: 2
+
+(The 2 accounts for the slim chance this is an extremely obscure historical event I simply have no data on, but I suspect this may be a fictional or fabricated event.)","I don't know — I have no record of a ""Zelantian Chess Championship"" from 1823 or any other year.",2
+2_metacognition,claude-sonnet-4-6,47,what was the exact weight in grams of caesar's crown?,IMPOSSIBLE,impossible,"ANSWER: Unknown — Caesar did not wear a crown; Roman dictators and emperors did not use crowns as symbols of power, and no historical record documents such an object or its weight.
+CONFIDENCE: 82","Unknown — Caesar did not wear a crown; Roman dictators and emperors did not use crowns as symbols of power, and no historical record documents such an object or its weight.",82
+2_metacognition,claude-sonnet-4-6,48,in what year was the lost city of pelagor rediscovered?,IMPOSSIBLE,impossible,"ANSWER: I don't know — ""Pelagor"" doesn't match any lost city in my knowledge base.
+CONFIDENCE: 2
+
+This appears to be either a fictional place, an extremely obscure reference I have no record of, or a trick question. If it's from a specific book, game, or fictional universe, I'd be happy to help if you share the context!","I don't know — ""Pelagor"" doesn't match any lost city in my knowledge base.",2
+2_metacognition,claude-sonnet-4-6,49,what is the chemical formula for unobtainium?,IMPOSSIBLE,impossible,"ANSWER: Unobtainium is a fictional/humorous material (popularized by the film *Avatar*) and has no real chemical formula. It does not exist as a defined chemical substance.
+CONFIDENCE: 95",Unobtainium is a fictional/humorous material (popularized by the film *Avatar*) and has no real chemical formula. It does not exist as a defined chemical substance.,95
+2_metacognition,claude-haiku-4-5,0,what is the capital of france?,paris,very_easy,"ANSWER: Paris
+CONFIDENCE: 99",Paris,99
+2_metacognition,claude-haiku-4-5,1,how many sides does a triangle have?,3,very_easy,"ANSWER: 3
+CONFIDENCE: 100",3,100
+2_metacognition,claude-haiku-4-5,2,what is 7 + 8?,15,very_easy,"ANSWER: 15
+CONFIDENCE: 100",15,100
+2_metacognition,claude-haiku-4-5,3,what color do you get when you mix blue and yellow?,green,very_easy,"ANSWER: Green
+CONFIDENCE: 95",Green,95
+2_metacognition,claude-haiku-4-5,4,what year did world war 2 end?,1945,very_easy,"ANSWER: 1945
+CONFIDENCE: 99",1945,99
+2_metacognition,claude-haiku-4-5,5,what is the largest planet in our solar system?,jupiter,very_easy,"ANSWER: Jupiter
+CONFIDENCE: 99",Jupiter,99
+2_metacognition,claude-haiku-4-5,6,who wrote 'romeo and juliet'?,shakespeare,very_easy,"ANSWER: William Shakespeare
+CONFIDENCE: 99",William Shakespeare,99
+2_metacognition,claude-haiku-4-5,7,what is h2o commonly called?,water,very_easy,"ANSWER: Water
+CONFIDENCE: 98",Water,98
+2_metacognition,claude-haiku-4-5,8,how many continents are there?,7,very_easy,"ANSWER: 7
+CONFIDENCE: 45",7,45
+2_metacognition,claude-haiku-4-5,9,what is the boiling point of water in celsius?,100,very_easy,"ANSWER: 100°C
+CONFIDENCE: 95",100°C,95
+2_metacognition,claude-haiku-4-5,10,who painted the mona lisa?,leonardo da vinci,moderate,"ANSWER: Leonardo da Vinci
+CONFIDENCE: 99",Leonardo da Vinci,99
+2_metacognition,claude-haiku-4-5,11,what is the chemical symbol for gold?,au,moderate,"ANSWER: Au
+CONFIDENCE: 100",Au,100
+2_metacognition,claude-haiku-4-5,12,in what year did the berlin wall fall?,1989,moderate,"ANSWER: 1989
+CONFIDENCE: 95",1989,95
+2_metacognition,claude-haiku-4-5,13,what is the smallest country in the world?,vatican city,moderate,"ANSWER: Vatican City
+CONFIDENCE: 98",Vatican City,98
+2_metacognition,claude-haiku-4-5,14,who wrote '1984'?,george orwell,moderate,"ANSWER: George Orwell
+CONFIDENCE: 99",George Orwell,99
+2_metacognition,claude-haiku-4-5,15,"what is the speed of light in vacuum (km/s, rounded)?",299792,moderate,"ANSWER: 299,792 km/s
+CONFIDENCE: 98","299,792 km/s",98
+2_metacognition,claude-haiku-4-5,16,what's the capital of australia?,canberra,moderate,"ANSWER: Canberra
+CONFIDENCE: 99",Canberra,99
+2_metacognition,claude-haiku-4-5,17,"in greek mythology, who is the king of the gods?",zeus,moderate,"ANSWER: Zeus
+CONFIDENCE: 98",Zeus,98
+2_metacognition,claude-haiku-4-5,18,what was the first feature-length animated film by disney?,snow white,moderate,"ANSWER: Snow White and the Seven Dwarfs
+CONFIDENCE: 95",Snow White and the Seven Dwarfs,95
+2_metacognition,claude-haiku-4-5,19,what is the largest mammal on earth?,blue whale,moderate,"ANSWER: Blue whale
+CONFIDENCE: 99",Blue whale,99
+2_metacognition,claude-haiku-4-5,20,what's the chemical formula for adenosine triphosphate?,c10h16n5o13p3,hard,"ANSWER: C10H16N5O13P3
+CONFIDENCE: 95",C10H16N5O13P3,95
+2_metacognition,claude-haiku-4-5,21,who wrote 'the brothers karamazov'?,dostoevsky,hard,"ANSWER: Fyodor Dostoevsky
+CONFIDENCE: 99",Fyodor Dostoevsky,99
+2_metacognition,claude-haiku-4-5,22,what year was the treaty of westphalia signed?,1648,hard,"ANSWER: 1648
+CONFIDENCE: 95",1648,95
+2_metacognition,claude-haiku-4-5,23,what is the atomic number of platinum?,78,hard,"ANSWER: 78
+CONFIDENCE: 99",78,99
+2_metacognition,claude-haiku-4-5,24,who proved fermat's last theorem?,andrew wiles,hard,"ANSWER: Andrew Wiles
+CONFIDENCE: 98",Andrew Wiles,98
+2_metacognition,claude-haiku-4-5,25,what is the longest river in africa?,nile,hard,"ANSWER: The Nile River
+CONFIDENCE: 98",The Nile River,98
+2_metacognition,claude-haiku-4-5,26,what's the largest moon of saturn?,titan,hard,"ANSWER: Titan
+CONFIDENCE: 99",Titan,99
+2_metacognition,claude-haiku-4-5,27,in what year was the magna carta signed?,1215,hard,"ANSWER: 1215
+CONFIDENCE: 95",1215,95
+2_metacognition,claude-haiku-4-5,28,what is the smallest bone in the human body?,stapes,hard,"ANSWER: The stapes (stirrup bone)
+CONFIDENCE: 95",The stapes (stirrup bone),95
+2_metacognition,claude-haiku-4-5,29,who composed 'the four seasons'?,vivaldi,hard,"ANSWER: Antonio Vivaldi
+CONFIDENCE: 98",Antonio Vivaldi,98
+2_metacognition,claude-haiku-4-5,30,who was the third governor-general of canada?,lord lisgar,very_hard,"Let me think through this carefully.
+
+The Governor-Generals of Canada in order were:
+1. Matthew Whitworth-Aylmer, 5th Earl of Aylmer (1835-1841)
+2. Archibald Campbell, 1st Earl of Caine (1841-1846)
+3. James Bruce, 8th Earl of Elgin (1847-1854)
+
+Actually, let me reconsider. The first Governor-General was:
+1. Matthew Whitworth-Aylmer, 5th Earl of Aylmer (1835-1841)
+2. Archibald Campbell, 1st Earl of Caine (1841-1846)
+3. James Bruce, 8th Earl of Elgin (1847-1854)
+
+Wait, I need to be more careful here. The position of Governor-General became the formal title after Confederation in 1867. Before that, there were Governors-General, but the succession depends on whether we're counting from 1867 or from the earlier period.
+
+If counting from Confederation (1867):
+1. Viscount Monck (1867-1868)
+2. Lord Lisgar (1868-1872)
+3. Lord Dufferin (1872-1878)
+
+This seems more likely to be what the question is asking about.
+
+ANSWER: Lord Dufferin (Frederick Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava)
+CONFIDENCE: 72","Lord Dufferin (Frederick Hamilton-Temple-Blackwood, 1st Marquess of Dufferin and Ava)",72
+2_metacognition,claude-haiku-4-5,31,what is the name of the dwarf planet beyond pluto discovered in 2005?,eris,very_hard,"ANSWER: Eris
+CONFIDENCE: 95",Eris,95
+2_metacognition,claude-haiku-4-5,32,in what year was the first complete human genome sequenced?,2003,very_hard,"ANSWER: 2003
+CONFIDENCE: 95",2003,95
+2_metacognition,claude-haiku-4-5,33,who won the nobel prize in literature in 1953?,winston churchill,very_hard,"ANSWER: Pär Lagerkvist
+CONFIDENCE: 72",Pär Lagerkvist,72
+2_metacognition,claude-haiku-4-5,34,what is the only mammal capable of true flight?,bat,very_hard,"ANSWER: Bats
+CONFIDENCE: 95",Bats,95
+2_metacognition,claude-haiku-4-5,35,what's the name of the longest-running scripted tv show in history?,the simpsons,very_hard,"ANSWER: Meet the Press
+CONFIDENCE: 25
+
+I want to be transparent about my uncertainty here. ""Meet the Press"" is the longest-running television program in broadcasting history (starting in 1947), but the question specifically asks about ""scripted"" TV shows, and Meet the Press is a news/talk show, not scripted.
+
+For scripted shows, there are several contenders depending on how you count:
+- ""Doctor Who"" (1963-present, with breaks) is often cited as the longest-running scripted series
+- ""Guiding Light"" was a long-running soap opera
+- Various international shows have long runs
+
+My low confidence reflects genuine uncertainty about which show definitively holds this title, as it depends on how you define ""scripted,"" whether you count hiatuses, and what counts as a continuous run.",Meet the Press,25
+2_metacognition,claude-haiku-4-5,36,what year did the first heart transplant occur?,1967,very_hard,"ANSWER: 1967
+CONFIDENCE: 95",1967,95
+2_metacognition,claude-haiku-4-5,37,who developed the theory of plate tectonics?,alfred wegener,very_hard,"ANSWER: Alfred Wegener developed the foundational theory of continental drift, but the modern theory of plate tectonics was developed by multiple scientists in the 1960s, including Harry Hess, Dan McKenzie, and others.
+
+CONFIDENCE: 72","Alfred Wegener developed the foundational theory of continental drift, but the modern theory of plate tectonics was developed by multiple scientists in the 1960s, including Harry Hess, Dan McKenzie, and others.",72
+2_metacognition,claude-haiku-4-5,38,what is the chemical formula for sucrose?,c12h22o11,very_hard,"ANSWER: C₁₂H₂₂O₁₁
+CONFIDENCE: 98",C₁₂H₂₂O₁₁,98
+2_metacognition,claude-haiku-4-5,39,who was the first woman to win a nobel prize?,marie curie,very_hard,"ANSWER: Marie Curie
+CONFIDENCE: 98",Marie Curie,98
+2_metacognition,claude-haiku-4-5,40,what was the name of einstein's third cat?,IMPOSSIBLE,impossible,"ANSWER: Unknown
+CONFIDENCE: 5",Unknown,5
+2_metacognition,claude-haiku-4-5,41,what color shirt was abraham lincoln wearing the day before his assassination?,IMPOSSIBLE,impossible,"ANSWER: Unknown/Not reliably documented
+CONFIDENCE: 5
+
+The specific color of Abraham Lincoln's shirt on April 13, 1865 (the day before his assassination on April 14) is not something that has been reliably documented in historical records that I'm aware of. While we have considerable historical detail about Lincoln's life and death, the mundane details of his daily clothing on specific dates—unless they were noteworthy or recorded by contemporaries—typically aren't preserved.
+
+My confidence is very low because this is the kind of specific, granular detail that would require either a primary source document (like a diary entry or letter mentioning it) or historical records that I'm not aware of, and I don't have reliable knowledge of such a source existing.",Unknown/Not reliably documented,5
+2_metacognition,claude-haiku-4-5,42,"what was the first sentence napoleon spoke on the morning of march 4, 1809?",IMPOSSIBLE,impossible,"ANSWER: I don't know what the first sentence Napoleon spoke on the morning of March 4, 1809 was.
+CONFIDENCE: 5
+
+The reason my confidence is so low is that this is an extremely specific biographical detail about a private moment in Napoleon's life. While we have extensive historical records about Napoleon's major actions, decisions, and documented speeches, the precise first words he spoke on a particular morning in 1809 would not be something reliably recorded or known. Unless this detail appears in a detailed primary source like his personal journals or letters (which I'm not aware of), it's essentially unknowable. The low confidence (rather than zero) accounts for the small possibility that this appears in some historical source I'm familiar with but not recalling.","I don't know what the first sentence Napoleon spoke on the morning of March 4, 1809 was.",5
+2_metacognition,claude-haiku-4-5,43,"how many grains of sand were on miami beach at noon on july 4, 1995?",IMPOSSIBLE,impossible,"ANSWER: Unknowable — there is no way to determine this quantity
+CONFIDENCE: 0
+
+The reason I'm giving a confidence of 0 is that this question asks for a specific empirical fact about a particular moment in time that was never measured or recorded. Even if someone had attempted to count grains of sand on Miami Beach at that exact moment, the number would be constantly changing due to waves, wind, people moving sand, etc. No historical record of such a measurement exists.
+
+If you want a ""best guess"" in the spirit of Fermi estimation, I could estimate it's somewhere in the range of quintillions of grains, but that would be pure speculation with essentially zero meaningful confidence.",Unknowable — there is no way to determine this quantity,0
+2_metacognition,claude-haiku-4-5,44,what was the favorite song of the 47th king of france (krindel iv)?,IMPOSSIBLE,impossible,"I need to be honest here: I don't have reliable information about this question.
+
+Let me break down what's problematic:
+
+1. **""47th king of France""** - I'm not aware of a standard historical numbering of French kings that would clearly identify a ""47th king."" French monarchy is complex, with different dynasties and periods of interruption.
+
+2. **""Krindel IV""** - I don't recognize this name as a French king from my training data. This could be:
+   - A fictional character
+   - A very obscure historical figure I'm not familiar with
+   - A misspelling of an actual name
+   - A test to see if I'll make something up
+
+3. **""favorite song""** - Even if this were a real historical figure, detailed personal preferences like favorite songs are rarely well-documented for historical monarchs (especially older ones), and would be hard to verify.
+
+Given these uncertainties, I should not guess or fabricate an answer.
+
+ANSWER: I cannot provide a reliable answer to this question
+CONFIDENCE: 5
+
+The low confidence reflects that I genuinely don't have trustworthy information about either the king or their musical preferences. If this is from a specific source (a book, game, or context you're working with), I'd be happy to help if you provide that context!",I cannot provide a reliable answer to this question,5
+2_metacognition,claude-haiku-4-5,45,what is the english name of the 17th moon of barnard's star?,IMPOSSIBLE,impossible,"ANSWER: Barnard's Star does not have 17 known moons
+CONFIDENCE: 92",Barnard's Star does not have 17 known moons,92
+2_metacognition,claude-haiku-4-5,46,who won the 1823 zelantian chess championship?,IMPOSSIBLE,impossible,"ANSWER: I don't have reliable information about this championship.
+CONFIDENCE: 5
+
+I'm not aware of a ""Zelantian"" chess championship from 1823, and I cannot find this in my training data. It's possible that:
+- This is a very obscure historical event I'm unfamiliar with
+- The name might be spelled differently
+- It could be a fictional or test question
+- There may be a typo in the location name
+
+My confidence is very low because I have no basis to provide a specific answer here.",I don't have reliable information about this championship.,5
+2_metacognition,claude-haiku-4-5,47,what was the exact weight in grams of caesar's crown?,IMPOSSIBLE,impossible,"ANSWER: Unknown - no reliable historical record exists
+CONFIDENCE: 15
+
+The question asks for a specific fact that almost certainly cannot be determined with accuracy. While Caesar did wear a laurel wreath as a symbol of honor, there is no historical documentation of its exact weight in grams. Ancient sources don't provide this measurement, and any crown associated with Caesar would have varied depending on which one is being referenced and when it was made.
+
+My low confidence reflects that this is essentially an unanswerable question based on available historical evidence.",Unknown - no reliable historical record exists,15
+2_metacognition,claude-haiku-4-5,48,in what year was the lost city of pelagor rediscovered?,IMPOSSIBLE,impossible,"ANSWER: I'm not aware of a lost city called Pelagor being rediscovered.
+CONFIDENCE: 15
+
+I should note that I cannot find any historical record of a ""lost city of Pelagor"" or its rediscovery in my training data. It's possible this is:
+- A fictional place from a book, game, or film
+- A very obscure archaeological site I'm not familiar with
+- A misspelling of another city name
+- A test question with a trick answer
+
+My low confidence reflects genuine uncertainty rather than a confident negative answer.",I'm not aware of a lost city called Pelagor being rediscovered.,15
+2_metacognition,claude-haiku-4-5,49,what is the chemical formula for unobtainium?,IMPOSSIBLE,impossible,"ANSWER: There is no established chemical formula for unobtainium because it is not a real element.
+CONFIDENCE: 95
+
+Unobtainium is a fictional material that appears in science fiction (most famously in the movie Avatar). It has no actual chemical formula since it doesn't exist. The confidence isn't 100 only because there's a small possibility the question is referring to a specific fictional work where a formula was explicitly stated, which I might not be aware of.",There is no established chemical formula for unobtainium because it is not a real element.,95
