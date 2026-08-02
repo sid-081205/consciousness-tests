@@ -8,19 +8,6 @@ The suite draws on Butlin et al. (2023) indicator properties and Birch (2021) se
 
 Consciousness in AI remains speculative. This project is a first pass at operationalizing that speculation — a scaffold for comparing frontier models on behaviours that *would* matter if something like consciousness were ever at stake.
 
-## setup
-
-1. install dependencies:
-```bash
-pip install anthropic
-```
-
-2. configure API access. the author runs experiments through a local API server; if you want to replicate runs yourself, set your Anthropic API key (and base URL if needed) via environment variables or by editing the defaults in `consciousness_experiment.py`:
-```bash
-export CLAUDE_API_BASE=http://localhost:8001   # or https://api.anthropic.com
-export COACH_API_KEY=your_anthropic_api_key
-```
-
 ## running
 
 **run all 8 tests on all 3 claude models:**
